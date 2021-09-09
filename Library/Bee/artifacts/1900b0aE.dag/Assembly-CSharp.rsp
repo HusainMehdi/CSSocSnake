@@ -318,6 +318,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Scripts/Helper Scripts/GameplayController.cs"
 "Assets/Scripts/Helper Scripts/Tags.cs"
 "Assets/Scripts/Player Scripts/PlayerController.cs"
 "Assets/Scripts/Player Scripts/PlayerInput.cs"

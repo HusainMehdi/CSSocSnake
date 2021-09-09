@@ -185,6 +185,7 @@ public class PlayerController : MonoBehaviour
             if(target.tag == Tags.FRUIT) {
                 target.gameObject.SetActive(false);
                 create_Node_At_Tail = true;
+                GameplayController.instance.IncreaseScore();
             }
 
              if(target.tag == Tags.WALL || target.tag == Tags.BOMB || target.tag == Tags.TAIL) {
