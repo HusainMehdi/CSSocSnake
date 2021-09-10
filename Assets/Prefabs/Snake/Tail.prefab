@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7167727864710710983}
   m_Layer: 0
   m_Name: Tail
-  m_TagString: Untagged
+  m_TagString: Tail
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112,4 +112,4 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.0000005
-  m_Center: {x: 0, y: 0.00000050663965, z: -1.2079232e-13}
+  m_Center: {x: 0, y: 0, z: -0.5}

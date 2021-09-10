@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float step_Length = 0.2f;
 
     [HideInInspector]
-    public float movement_Frequency = 0.01f;
+    public float movement_Frequency = 0.1f;
 
     private float counter;
     private bool move;
@@ -149,7 +149,7 @@ public class PlayerController : MonoBehaviour
     void CheckMovementFrequency(){
         counter += Time.deltaTime;
 
-        if(counter>= movement_Frequency){
+        if(counter>= movement_Frequency*2){
 
             counter =0.1f;
             move = true;
