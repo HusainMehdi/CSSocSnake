@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3920007662323637449}
   - component: {fileID: 3920007662323637448}
   - component: {fileID: 3920007662323637452}
+  - component: {fileID: 2238549310772074611}
   m_Layer: 0
   m_Name: Fruit
   m_TagString: Fruit
@@ -96,7 +97,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: -1}
 --- !u!64 &3920007662323637452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -111,3 +112,15 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 38972d9a807375f4fbdbf2e076aa183f, type: 3}
+--- !u!114 &2238549310772074611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3920007662323637463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea1cb6068ec8614f89421f17c1f1133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

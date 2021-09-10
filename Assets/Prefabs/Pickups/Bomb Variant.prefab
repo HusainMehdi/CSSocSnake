@@ -27,6 +27,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 38972d9a807375f4fbdbf2e076aa183f, type: 3}
+--- !u!114 &8114169383456024761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941764376727741928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea1cb6068ec8614f89421f17c1f1133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2941764376727708490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44,7 +56,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 38972d9a807375f4fbdbf2e076aa183f, type: 3}
       propertyPath: m_Name
-      value: Bomb
+      value: Bomb Variant
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 38972d9a807375f4fbdbf2e076aa183f, type: 3}
       propertyPath: m_TagString

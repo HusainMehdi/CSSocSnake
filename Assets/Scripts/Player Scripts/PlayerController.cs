@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float step_Length = 0.2f;
 
     [HideInInspector]
-    public float movement_Frequency = 0.1f;
+    public float movement_Frequency = 0.01f;
 
     private float counter;
     private bool move;
@@ -189,7 +189,7 @@ public class PlayerController : MonoBehaviour
             }
 
              if(target.tag == Tags.WALL || target.tag == Tags.BOMB || target.tag == Tags.TAIL) {
-                print("Snake Touche Tail");
+                Time.timeScale = 0f;
             }
     } 
 }
